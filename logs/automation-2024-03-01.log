@@ -1,0 +1,50 @@
+17:03:38.282 [main] INFO  testCases.TC_001_TravelInsuranceTest - entering destination
+17:03:40.866 [main] INFO  testCases.TC_001_TravelInsuranceTest - entering trip date
+17:03:47.220 [main] INFO  testCases.TC_001_TravelInsuranceTest - entering travellers detail
+17:03:53.715 [main] INFO  testCases.TC_001_TravelInsuranceTest - entering travellers medical history
+17:03:55.086 [main] INFO  testCases.TC_001_TravelInsuranceTest - entering contact details
+17:03:57.590 [main] INFO  testCases.TC_001_TravelInsuranceTest - handling popup
+17:04:16.453 [main] INFO  testCases.TC_001_TravelInsuranceTest - selcting the student plan
+17:04:19.623 [main] INFO  testCases.TC_001_TravelInsuranceTest - sorting the price as low to high
+17:04:23.467 [main] INFO  testCases.TC_001_TravelInsuranceTest - displaying travel insurance
+17:04:28.626 [main] INFO  testCases.TC_001_TravelInsuranceTest - ***** Finishing TC_001_TravelInsuranceTest *****
+17:04:34.060 [main] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_002_CarInsuranceTest *****
+17:04:34.061 [main] INFO  testCases.TC_001_TravelInsuranceTest - clicking car insurance
+17:04:37.498 [main] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:04:42.649 [main] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:04:43.653 [main] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:04:44.263 [main] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:04:45.164 [main] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:04:45.897 [main] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:04:46.639 [main] INFO  testCases.TC_001_TravelInsuranceTest - filling the user details
+17:04:48.527 [main] INFO  testCases.TC_001_TravelInsuranceTest - capturing error message
+17:04:48.597 [main] INFO  testCases.TC_001_TravelInsuranceTest - ***** Finishing TC_002_CarInsuranceTest *****
+17:04:54.238 [main] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_003_HealthInsuranceTest *****
+17:04:54.240 [main] INFO  testCases.TC_001_TravelInsuranceTest - displaying the health insurance
+17:05:04.419 [main] INFO  testCases.TC_001_TravelInsuranceTest - ***** Finishing TC_003_HealthInsuranceTest *****
+17:06:53.624 [main] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_001_TravelInsuranceTest *****
+17:06:53.733 [main] INFO  testCases.TC_001_TravelInsuranceTest - clicking travel insurance
+17:07:06.162 [main] INFO  testCases.TC_001_TravelInsuranceTest - entering destination
+17:09:11.510 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_003_HealthInsuranceTest *****
+17:09:11.545 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - displaying the health insurance
+17:09:14.085 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_003_HealthInsuranceTest *****
+17:09:14.093 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - displaying the health insurance
+17:09:23.809 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_001_TravelInsuranceTest *****
+17:09:23.809 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - clicking travel insurance
+17:09:30.222 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_001_TravelInsuranceTest *****
+17:09:30.223 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - clicking travel insurance
+17:09:30.652 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_002_CarInsuranceTest *****
+17:09:30.664 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - clicking car insurance
+17:09:36.712 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - entering destination
+17:09:37.761 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_002_CarInsuranceTest *****
+17:09:37.762 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - clicking car insurance
+17:10:07.617 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:10:41.594 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - entering destination
+17:10:42.831 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - entering trip date
+17:11:43.577 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:12:14.149 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:12:44.854 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - entering travellers detail
+17:13:20.050 [TestNG-tests-1] INFO  testCases.TC_001_TravelInsuranceTest - entering trip date
+17:14:20.599 [TestNG-tests-2] INFO  testCases.TC_001_TravelInsuranceTest - Entering the details
+17:18:29.975 [main] INFO  testCases.TC_001_TravelInsuranceTest - ***** Starting TC_001_TravelInsuranceTest *****
+17:18:29.997 [main] INFO  testCases.TC_001_TravelInsuranceTest - clicking travel insurance
