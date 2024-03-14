@@ -7,7 +7,7 @@
         <methods>
           <include name="test_StudentPlans"/>
           <include name="test_HomePage"/>
-          <include name="tearDown"/>
+          <include name="teardown"/>
           <include name="test_Destinations"/>
           <include name="test_TripDate"/>
           <include name="test_MedicalHistory"/>

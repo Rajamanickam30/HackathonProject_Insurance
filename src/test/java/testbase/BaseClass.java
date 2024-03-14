@@ -82,7 +82,7 @@ public class BaseClass {
 			return;
 			}
 
-			driver=new RemoteWebDriver(new URL("http://10.66.136.58:4444/"), cap);
+			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
 		}
 
 		else if(property.getProperty("execution_env").equalsIgnoreCase("local"))

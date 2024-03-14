@@ -4,16 +4,10 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="edgeTest(failed)">
-    <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_HealthInsuranceTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="test_MenuItems"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_003_HealthInsuranceTest -->
       <class name="testCases.TC_002_CarInsuranceTest">
         <methods>
           <include name="test_carVariant"/>
@@ -25,8 +19,8 @@
           <include name="test_carFuelType"/>
           <include name="setup"/>
           <include name="test_HomePage"/>
-          <include name="test_captureErrorMsg"/>
           <include name="test_carBrand"/>
+          <include name="test_captureErrorMsg"/>
         </methods>
       </class> <!-- testCases.TC_002_CarInsuranceTest -->
       <class name="testCases.TC_001_TravelInsuranceTest">
@@ -44,5 +38,5 @@
         </methods>
       </class> <!-- testCases.TC_001_TravelInsuranceTest -->
     </classes>
-  </test> <!-- edgeTest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

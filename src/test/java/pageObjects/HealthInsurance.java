@@ -4,6 +4,7 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 import testbase.BaseClass;
 public class HealthInsurance extends BasePage{
@@ -17,9 +18,11 @@ public class HealthInsurance extends BasePage{
 	@FindBy(xpath="(//div[@class='ruby-col-3 hidden-md'])[2]//ul//li")
 	List<WebElement> menuItems;
 
-
+    CarInsurance c=new CarInsurance(driver);
+    WebElement logo=c.Logo();
+    
 	public void displayMenuItems() throws InterruptedException, IOException {
-		
+		Assert.assertTrue(logo.isDisplayed());
 		insProducts.click();
 		Thread.sleep(5000);
 		System.out.println("     ***** List Of Health Insurance *****");

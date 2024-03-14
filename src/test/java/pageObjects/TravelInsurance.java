@@ -120,6 +120,7 @@ public class TravelInsurance extends BasePage {
 	public void enterTripDate() throws InterruptedException {
 		BaseClass.explicitWait(driver, Duration.ofSeconds(30), date1);
 		date1.click();
+		//Thread.sleep(3000);
 		if(current<10) {
 			 currentdate=timestamp.substring(7,8);
 		}
@@ -138,12 +139,13 @@ public class TravelInsurance extends BasePage {
 		date2.click();
 		for(int i=0;i<calender.size();i++) {
 		if(calender.get(i).getText().equals(currentdate)) {
-				calender.get(i+20).click();
+				calender.get(i+15).click();
 				break;
 			}
 		}
-		BaseClass.explicitWait(driver,Duration.ofSeconds(30),btnNxt2);
+		BaseClass.explicitWait(driver,Duration.ofSeconds(60),btnNxt2);
 		btnNxt2.click();
+		
 	}
 
 	public void enterTravellersDetail() throws IOException {
@@ -168,27 +170,25 @@ public class TravelInsurance extends BasePage {
 
 	public void enterMedicalHistory() {
 		medHistory.click();
-
 	}
 
 	public void enterContactDetails() throws IOException {
-
-		BaseClass.explicitWait(driver,Duration.ofSeconds(30),mobNo);
+        BaseClass.explicitWait(driver,Duration.ofSeconds(30),mobNo);
 		mobNo.sendKeys(BaseClass.xlutil.getCellData("Sheet1", 2, 0));
 		btnPlan.click();
 	}
 
 	public void handlingPopup() {
-		BaseClass.explicitWait(driver,Duration.ofSeconds(120),popup);
+		BaseClass.explicitWait(driver,Duration.ofSeconds(180),popup);
 		popup.click();
 		closePopUp.click();
 	}
 
 	public void typeOfPlan() throws InterruptedException {
 		planType.click();
-		BaseClass.explicitWait(driver,Duration.ofSeconds(50),ChecboxTraveller1);
+		BaseClass.explicitWait(driver,Duration.ofSeconds(30),ChecboxTraveller1);
 		ChecboxTraveller1.click();
-		BaseClass.explicitWait(driver,Duration.ofSeconds(50),ChecboxTraveller2);
+		BaseClass.explicitWait(driver,Duration.ofSeconds(30),ChecboxTraveller2);
 		ChecboxTraveller2.click();
 		Select select=new Select(drpdwnDuration);
 		select.selectByVisibleText("30 Days");
